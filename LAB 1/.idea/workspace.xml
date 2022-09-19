@@ -17,56 +17,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd908754-8ff4-46a5-b2c0-49719140cf7a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/LAB 1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/.idea/Empty Project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/.cmake/api/v1/reply/cache-v2-b0ba092b4c525b1f2912.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-f39827085fb1f90e3c8b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-66608253284231f5a1ab.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/.cmake/api/v1/reply/index-2022-09-14T17-26-12-0953.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/.cmake/api/v1/reply/target-Empty_Project-Debug-672b3c92c41f2e8fc33b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-eb46197552e3e73eee4e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/.ninja_deps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/.ninja_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/CMakeFiles/3.23.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/CMakeFiles/3.23.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/CMakeFiles/3.23.2/CMakeRCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/CMakeFiles/3.23.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/CMakeFiles/Empty_Project.dir/main.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/Empty_Project.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Empty Project/main.cpp" beforeDir="false" />
-    </list>
+    <list default="true" id="dd908754-8ff4-46a5-b2c0-49719140cf7a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663575611799</updated>
-      <workItem from="1663575613584" duration="1778000" />
+      <workItem from="1663575613584" duration="2267000" />
     </task>
     <servers />
   </component>
