@@ -1,3 +1,0 @@
-C:/Users/asada/OneDrive/CIIT/Data Structures and Algorithms/DSA_in_Cpp/Empty Project/cmake-build-debug/CMakeFiles/Empty_Project.dir
-C:/Users/asada/OneDrive/CIIT/Data Structures and Algorithms/DSA_in_Cpp/Empty Project/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/asada/OneDrive/CIIT/Data Structures and Algorithms/DSA_in_Cpp/Empty Project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
