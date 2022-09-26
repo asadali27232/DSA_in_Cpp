@@ -55,12 +55,6 @@ build CMakeFiles/LAB_1.dir/main.cpp.obj: CXX_COMPILER__LAB_1_Debug C$:/Users/asa
   OBJECT_DIR = CMakeFiles\LAB_1.dir
   OBJECT_FILE_DIR = CMakeFiles\LAB_1.dir
 
-build CMakeFiles/LAB_1.dir/asad.cpp.obj: CXX_COMPILER__LAB_1_Debug C$:/Users/asada/OneDrive/CIIT/Data$ Structures$ and$ Algorithms/DSA_in_Cpp/LAB$ 1/asad.cpp || cmake_object_order_depends_target_LAB_1
-  DEP_FILE = CMakeFiles\LAB_1.dir\asad.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\LAB_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\LAB_1.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target LAB_1
@@ -69,7 +63,7 @@ build CMakeFiles/LAB_1.dir/asad.cpp.obj: CXX_COMPILER__LAB_1_Debug C$:/Users/asa
 #############################################
 # Link the executable LAB_1.exe
 
-build LAB_1.exe: CXX_EXECUTABLE_LINKER__LAB_1_Debug CMakeFiles/LAB_1.dir/main.cpp.obj CMakeFiles/LAB_1.dir/asad.cpp.obj
+build LAB_1.exe: CXX_EXECUTABLE_LINKER__LAB_1_Debug CMakeFiles/LAB_1.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\LAB_1.dir
