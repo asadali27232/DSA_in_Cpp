@@ -25,7 +25,12 @@ int main() {
 //    transpose();
 //    student();
     DynamicArray<int> dynamicArray;
+    dynamicArray.add(30);
+    dynamicArray.add(100);
+    dynamicArray.add(0, 45);
+    dynamicArray.add(500);
     dynamicArray.printArray();
+
     return 0;
 }
 
