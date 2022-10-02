@@ -1,6 +1,6 @@
 #include<iostream>
-#include "Stack.h"
-#include "Stack.cpp"
+#include "DynamicArray.h"
+#include "DynamicArray.cpp"
 
 using namespace std;
 
@@ -17,27 +17,15 @@ struct Student {
     string course;
     double cgpa;
 };
+
 char garbage;
 
 int main() {
 //    multiplyMatrix();
 //    transpose();
 //    student();
-    Stack<int> stack(10);
-    cout << stack.pop() << endl;
-    stack.push(20);
-    stack.push(22);
-    stack.push(30);
-    stack.push(42);
-    cout << endl;
-    stack.print();
-    cout << endl;
-    cout << stack.pop() << endl;
-    cout << stack.pop() << endl;
-    cout << stack.pop() << endl;
-    cout << endl;
-    stack.print();
-    cout << endl;
+    DynamicArray<int> dynamicArray;
+    dynamicArray.printArray();
     return 0;
 }
 

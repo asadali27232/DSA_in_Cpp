@@ -1,8 +1,5 @@
-//
-// Created by asada on 9/26/2022.
-//
-#include "iostream"
 #include "Stack.h"
+#include "iostream"
 
 using namespace std;
 
@@ -10,15 +7,14 @@ template<typename T>
 Stack<T>::Stack(int size) {
     this->size = size;
     this->TOP = -1;
-    stack = new T[this->size];
+    this->stack = new T[this->size];
 }
 
 template<typename T>
 void Stack<T>::print() {
     if (isEmpty()) {
         cout << "Empty Stack!" << endl;
-    }
-    else {
+    } else {
         cout << "Stack" << endl;
         for (int i = TOP; i >= 0; --i) {
             cout << stack[i] << endl;
@@ -61,4 +57,3 @@ bool Stack<T>::isFull() {
     else
         return false;
 }
-
