@@ -12,6 +12,8 @@ public:
 
     ~Stack();
 
+    int getTOP();
+
     void print();
 
     void push(T element);

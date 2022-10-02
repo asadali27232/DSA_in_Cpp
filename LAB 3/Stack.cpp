@@ -16,6 +16,11 @@ Stack<T>::~Stack() {
 }
 
 template<typename T>
+int Stack<T>::getTOP() {
+    return TOP;
+}
+
+template<typename T>
 void Stack<T>::print() {
     if (isEmpty()) {
         cout << "Empty Stack!" << endl;

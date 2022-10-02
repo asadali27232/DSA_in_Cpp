@@ -2,6 +2,7 @@
 #include "Stack.h"
 #include "Stack.cpp"
 #include "cstring"
+#include "cmath"
 
 using namespace std;
 
@@ -14,8 +15,40 @@ void infixToPostfix();
 void evaluatePostfix();
 
 int main() {
-//    baseConversion();
-    balancedExpression();
+    int choice;
+    do {
+        cout << endl;
+        cout << "--------------------------------------------------------";
+        cout << endl << "Applications of Stack" << endl;
+        cout << "--------------------------------------------------------";
+        cout << endl << endl;
+
+        cout << "1- Base Conversion" << endl;
+        cout << "2- Balanced Expression" << endl;
+        cout << "3- Infix to Postfix" << endl;
+        cout << "4- Evaluate Postfix Expression" << endl;
+        cout << "5- Exit..." << endl;
+        cin >> choice;
+
+        switch (choice) {
+            case 1:
+                baseConversion();
+                break;
+            case 2:
+                balancedExpression();
+                break;
+            case 3:
+                infixToPostfix();
+                break;
+            case 4:
+                evaluatePostfix();
+                break;
+            case 5:
+                return -1;
+            default:
+                continue;
+        }
+    } while (choice != -1);
     return 0;
 }
 
@@ -39,7 +72,7 @@ void baseConversion() {
 
 void balancedExpression() {
     string str;
-    cout << "Enter expression without spaces:" << endl;
+    cout << endl << "Enter expression without spaces:" << endl;
     cin >> str;
 
     char expression[str.length() + 1];
@@ -81,9 +114,155 @@ void balancedExpression() {
 }
 
 void infixToPostfix() {
+    string str;
+    cout << endl << "Enter expression without spaces:" << endl;
+    cin >> str;
 
+    char expression[str.length() + 1];
+    strcpy(expression, str.c_str());
+
+    Stack<char> stack(str.length() + 1);
+
+    string postfix = "";
+    for (int i = 0; i < str.length() + 1; ++i) {
+        if (expression[i] != '[' && expression[i] != '{' && expression[i] != '(' && expression[i] != ']' &&
+            expression[i] != '}' && expression[i] != ')' && expression[i] != '+' && expression[i] != '-' &&
+            expression[i] != '*' && expression[i] != '/' && expression[i] != '^') {
+            postfix += expression[i];
+            continue;
+        }
+        if (expression[i] == '[' || expression[i] == '{' || expression[i] == '(') {
+            stack.push(expression[i]);
+            continue;
+        }
+        if (expression[i] == ']' || expression[i] == '}' || expression[i] == ')') {
+            char openingSymbol;
+
+            if (expression[i] == ']')
+                openingSymbol = '[';
+            else if (expression[i] == '}')
+                openingSymbol = '{';
+            else
+                openingSymbol = '(';
+
+            char popValue = stack.pop();
+
+            while (popValue != openingSymbol) {
+                postfix += popValue;
+                popValue = stack.pop();
+            }
+            continue;
+        }
+        if (expression[i] == '+' || expression[i] == '-' || expression[i] == '*' || expression[i] == '/' ||
+            expression[i] == '^') {
+            if (stack.isEmpty())
+                stack.push(expression[i]);
+            else {
+                char popValue = stack.pop();
+                switch (popValue) {
+                    case '^':
+                        postfix += popValue;
+                        stack.push(expression[i]);
+                        break;
+                    case '/':
+                        if (expression[i] == '^') {
+                            stack.push(popValue);
+                            stack.push(expression[i]);
+                        } else {
+                            postfix += popValue;
+                            stack.push(expression[i]);
+                        }
+                        break;
+                    case '*':
+                        if (expression[i] == '^') {
+                            stack.push(popValue);
+                            stack.push(expression[i]);
+                        } else {
+                            postfix += popValue;
+                            stack.push(expression[i]);
+                        }
+                        break;
+                    case '+':
+                        if (expression[i] == '^' || expression[i] == '/' || expression[i] == '*') {
+                            stack.push(popValue);
+                            stack.push(expression[i]);
+                        } else {
+                            postfix += popValue;
+                            stack.push(expression[i]);
+                        }
+                        break;
+                    case '-':
+                        if (expression[i] == '^' || expression[i] == '/' || expression[i] == '*') {
+                            stack.push(popValue);
+                            stack.push(expression[i]);
+                        } else {
+                            postfix += popValue;
+                            stack.push(expression[i]);
+                        }
+                        break;
+                    default:
+                        stack.push(popValue);
+                        stack.push(expression[i]);
+                        break;
+                }
+            }
+            continue;
+        }
+    }
+    if (!stack.isEmpty()) {
+        for (int i = stack.getTOP(); i >= 0; --i) {
+            postfix += stack.pop();
+        }
+        cout << endl << "Postfix Expression: " << postfix << endl;
+    }
 }
 
 void evaluatePostfix() {
+    string str;
+    cout << endl << "Enter expression without spaces:" << endl;
+    cin >> str;
 
+    char expression[str.length() + 1];
+    strcpy(expression, str.c_str());
+
+    Stack<double> stack(str.length() + 1);
+
+    for (int i = 0; i < str.length() + 1; ++i) {
+        if (expression[i] == ',')
+            continue;
+        else if (expression[i] == '+' || expression[i] == '-' || expression[i] == '*' || expression[i] == '/' ||
+            expression[i] == '^') {
+            if (stack.getTOP() > 0) {
+                double first = stod(to_string(stack.pop()));
+                double second = stod(to_string(stack.pop()));
+
+                switch (expression[i]) {
+                    case '^':
+                        stack.push(pow(second, first));
+                        break;
+                    case '*':
+                        stack.push(second * first);
+                        break;
+                    case '/':
+                        stack.push(second / first);
+                        break;
+                    case '+':
+                        stack.push(second + first);
+                        break;
+                    case '-':
+                        stack.push(second - first);
+                        break;
+                }
+            } else {
+                cout << "Expression is not Valid!" << endl;
+                return;
+            }
+        } else {
+            stack.push(expression[i]);
+        }
+    }
+    if (stack.getTOP() > 0) {
+        cout << "Expression is not Valid! " << endl;
+    } else
+        cout << "Answer is: " << stack.pop() << endl;
 }
