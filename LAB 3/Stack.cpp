@@ -11,6 +11,11 @@ Stack<T>::Stack(int size) {
 }
 
 template<typename T>
+Stack<T>::~Stack() {
+    delete stack;
+}
+
+template<typename T>
 void Stack<T>::print() {
     if (isEmpty()) {
         cout << "Empty Stack!" << endl;

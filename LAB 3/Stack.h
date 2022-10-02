@@ -10,6 +10,8 @@ private:
 public:
     explicit Stack(int size);
 
+    ~Stack();
+
     void print();
 
     void push(T element);
