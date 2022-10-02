@@ -22,6 +22,14 @@ public:
     void add(T element);
 
     void add(int index, T element);
+
+    void removeAt(int index);
+
+    void remove(T element);
+
+    void sort();
+
+    int search(T element);
 };
 
 

@@ -28,7 +28,23 @@ int main() {
     dynamicArray.add(30);
     dynamicArray.add(100);
     dynamicArray.add(0, 45);
+    dynamicArray.add(200, 75);
     dynamicArray.add(500);
+    dynamicArray.add(100, 85);
+
+    dynamicArray.printArray();
+    dynamicArray.sort();
+
+    cout << endl;
+    dynamicArray.printArray();
+    cout << endl << "Element Found At: " << dynamicArray.search(85) << endl;
+
+    dynamicArray.remove(85);
+    dynamicArray.remove(1000);
+    dynamicArray.removeAt(0);
+    dynamicArray.removeAt(100);
+
+    cout << endl;
     dynamicArray.printArray();
 
     return 0;
