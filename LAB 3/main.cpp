@@ -225,16 +225,16 @@ void evaluatePostfix() {
     char expression[str.length() + 1];
     strcpy(expression, str.c_str());
 
-    Stack<double> stack(str.length() + 1);
+    Stack<int> stack(str.length() + 1);
 
-    for (int i = 0; i < str.length() + 1; ++i) {
-        if (expression[i] == ',')
+    for (int i = 0; i < str.length(); ++i) {
+        if (expression[i] == ',' || expression[i] == '\n')
             continue;
         else if (expression[i] == '+' || expression[i] == '-' || expression[i] == '*' || expression[i] == '/' ||
             expression[i] == '^') {
             if (stack.getTOP() > 0) {
-                double first = stod(to_string(stack.pop()));
-                double second = stod(to_string(stack.pop()));
+                int first = stack.pop();
+                int second = stack.pop();
 
                 switch (expression[i]) {
                     case '^':
@@ -258,7 +258,7 @@ void evaluatePostfix() {
                 return;
             }
         } else {
-            stack.push(expression[i]);
+            stack.push((((int) expression[i]) - 48));
         }
     }
     if (stack.getTOP() > 0) {
