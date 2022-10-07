@@ -17,17 +17,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="802572aa-6f16-4069-b200-e968bb8314d9" name="Changes" comment="Updated">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LAB 3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB 3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LAB 3/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB 3/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LAB 3/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB 3/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LAB 3/cmake-build-debug/CMakeFiles/LAB_3.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB 3/cmake-build-debug/CMakeFiles/LAB_3.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LAB 3/cmake-build-debug/LAB_3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB 3/cmake-build-debug/LAB_3.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LAB 3/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB 3/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LAB 3/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB 3/main.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="802572aa-6f16-4069-b200-e968bb8314d9" name="Changes" comment="Updated" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +85,7 @@
       <workItem from="1664692134192" duration="6273000" />
       <workItem from="1664698602972" duration="486000" />
       <workItem from="1664699327028" duration="6179000" />
-      <workItem from="1665115938479" duration="608000" />
+      <workItem from="1665115938479" duration="609000" />
     </task>
     <task id="LOCAL-00001" summary="Updated">
       <created>1664695432577</created>
