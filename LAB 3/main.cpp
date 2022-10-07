@@ -219,7 +219,7 @@ void infixToPostfix() {
 
 void evaluatePostfix() {
     string str;
-    cout << endl << "Enter expression without spaces:" << endl;
+    cout << endl << "Enter Single Digit expression without spaces seperated by ',' :" << endl;
     cin >> str;
 
     char expression[str.length() + 1];
