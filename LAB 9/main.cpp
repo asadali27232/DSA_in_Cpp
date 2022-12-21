@@ -71,6 +71,7 @@ BST_Node* search(BST_Node* root, int findData) {
     else
         return nullptr;
 }
+
 void leftDelete(BST_Node* root, int data) {
     BST_Node* deletingNode = search(root, data);
     if (deletingNode == nullptr) {
@@ -93,8 +94,6 @@ int main() {
     nodeInsertion(&root , new BST_Node(15));
     nodeInsertion(&root , new BST_Node(9));
     nodeInsertion(&root , new BST_Node(6));
-
-
 
     inorderTraversal(&root);
 
