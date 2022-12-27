@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/asada/OneDrive/CIIT/Data Structures and Algorithms/DSA_in_Cpp/LAB 3/cmake-build-debug"
+			"value" : "c:/Users/asada/OneDrive/CIIT/Data Structures and Algorithms/DSA_in_Cpp/LAB 10/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -79,7 +79,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "23"
+			"value" : "24"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -92,6 +92,18 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "2"
+		},
+		{
+			"name" : "CMAKE_COLOR_DIAGNOSTICS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable colored diagnostics throughout."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
 		},
 		{
 			"name" : "CMAKE_COMMAND",
@@ -554,6 +566,18 @@
 			"value" : ""
 		},
 		{
+			"name" : "CMAKE_FIND_PACKAGE_REDIRECTS_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake."
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/asada/OneDrive/CIIT/Data Structures and Algorithms/DSA_in_Cpp/LAB 10/cmake-build-debug/CMakeFiles/pkgRedirects"
+		},
+		{
 			"name" : "CMAKE_GENERATOR",
 			"properties" : 
 			[
@@ -623,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/asada/OneDrive/CIIT/Data Structures and Algorithms/DSA_in_Cpp/LAB 3"
+			"value" : "C:/Users/asada/OneDrive/CIIT/Data Structures and Algorithms/DSA_in_Cpp/LAB 10"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -635,7 +659,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/LAB_3"
+			"value" : "C:/Program Files (x86)/LAB_10"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -663,7 +687,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/JetBrains/CLion 2022.2.3/bin/ninja/win/ninja.exe"
+			"value" : "C:/PROGRA~1/JetBrains/CLion 2022.2.3/bin/ninja/win/ninja.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -851,7 +875,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "LAB_3"
+			"value" : "LAB_10"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1003,7 +1027,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files/JetBrains/CLion 2022.2.3/bin/cmake/win/share/cmake-3.23"
+			"value" : "C:/Program Files/JetBrains/CLion 2022.2.3/bin/cmake/win/share/cmake-3.24"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1230,7 +1254,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "LAB_3_BINARY_DIR",
+			"name" : "LAB_10_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1239,10 +1263,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/asada/OneDrive/CIIT/Data Structures and Algorithms/DSA_in_Cpp/LAB 3/cmake-build-debug"
+			"value" : "C:/Users/asada/OneDrive/CIIT/Data Structures and Algorithms/DSA_in_Cpp/LAB 10/cmake-build-debug"
 		},
 		{
-			"name" : "LAB_3_IS_TOP_LEVEL",
+			"name" : "LAB_10_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1254,7 +1278,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "LAB_3_SOURCE_DIR",
+			"name" : "LAB_10_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1263,7 +1287,19 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/asada/OneDrive/CIIT/Data Structures and Algorithms/DSA_in_Cpp/LAB 3"
+			"value" : "C:/Users/asada/OneDrive/CIIT/Data Structures and Algorithms/DSA_in_Cpp/LAB 10"
+		},
+		{
+			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "linker supports push/pop state"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
 		}
 	],
 	"kind" : "cache",
