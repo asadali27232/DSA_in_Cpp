@@ -56,8 +56,8 @@ build CMakeFiles/LAB_10.dir/Stack.cpp.obj: CXX_COMPILER__LAB_10_Debug C$:/Users/
   OBJECT_DIR = CMakeFiles\LAB_10.dir
   OBJECT_FILE_DIR = CMakeFiles\LAB_10.dir
 
-build CMakeFiles/LAB_10.dir/heap.cpp.obj: CXX_COMPILER__LAB_10_Debug C$:/Users/asada/OneDrive/CIIT/Data$ Structures$ and$ Algorithms/DSA_in_Cpp/LAB$ 10/heap.cpp || cmake_object_order_depends_target_LAB_10
-  DEP_FILE = CMakeFiles\LAB_10.dir\heap.cpp.obj.d
+build CMakeFiles/LAB_10.dir/heapTree.cpp.obj: CXX_COMPILER__LAB_10_Debug C$:/Users/asada/OneDrive/CIIT/Data$ Structures$ and$ Algorithms/DSA_in_Cpp/LAB$ 10/heapTree.cpp || cmake_object_order_depends_target_LAB_10
+  DEP_FILE = CMakeFiles\LAB_10.dir\heapTree.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   INCLUDES = -I"C:/Users/asada/OneDrive/CIIT/Data Structures and Algorithms/DSA_in_Cpp/LAB 10/."
   OBJECT_DIR = CMakeFiles\LAB_10.dir
@@ -71,7 +71,7 @@ build CMakeFiles/LAB_10.dir/heap.cpp.obj: CXX_COMPILER__LAB_10_Debug C$:/Users/a
 #############################################
 # Link the executable LAB_10.exe
 
-build LAB_10.exe: CXX_EXECUTABLE_LINKER__LAB_10_Debug CMakeFiles/LAB_10.dir/Stack.cpp.obj CMakeFiles/LAB_10.dir/heap.cpp.obj
+build LAB_10.exe: CXX_EXECUTABLE_LINKER__LAB_10_Debug CMakeFiles/LAB_10.dir/Stack.cpp.obj CMakeFiles/LAB_10.dir/heapTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\LAB_10.dir

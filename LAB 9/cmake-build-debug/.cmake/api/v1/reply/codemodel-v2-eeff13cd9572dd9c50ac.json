@@ -9,7 +9,7 @@
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.24"
+						"string" : "3.23"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "LAB_10",
+					"name" : "LAB_9",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "LAB_10::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-LAB_10-Debug-9662bea8b4c5dab80a3e.json",
-					"name" : "LAB_10",
+					"id" : "LAB_9::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LAB_9-Debug-a3ab86c8522de7b1f94f.json",
+					"name" : "LAB_9",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/asada/OneDrive/CIIT/Data Structures and Algorithms/DSA_in_Cpp/LAB 10/cmake-build-debug",
-		"source" : "C:/Users/asada/OneDrive/CIIT/Data Structures and Algorithms/DSA_in_Cpp/LAB 10"
+		"build" : "C:/Users/asada/OneDrive/CIIT/Data Structures and Algorithms/DSA_in_Cpp/LAB 9/cmake-build-debug",
+		"source" : "C:/Users/asada/OneDrive/CIIT/Data Structures and Algorithms/DSA_in_Cpp/LAB 9"
 	},
 	"version" : 
 	{

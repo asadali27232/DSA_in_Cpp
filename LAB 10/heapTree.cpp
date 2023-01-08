@@ -11,16 +11,16 @@ Stack<int> sortedStack(100);
 // an index of arr[] and n is the size of heap
 void shiftDown(int arr[], int n, int i) {
     int largest = i; // Initialize largest as root
-    int l = 2 * i + 1; // left = 2*i + 1
-    int r = 2 * i + 2; // right = 2*i + 2
+    int leftChild = 2 * i + 1; // left = 2*i + 1
+    int rightChild = 2 * i + 2; // right = 2*i + 2
 
     // If left child is larger than root
-    if (l < n && arr[l] > arr[largest])
-        largest = l;
+    if (leftChild < n && arr[leftChild] > arr[largest])
+        largest = leftChild;
 
     // If right child is larger than largest so far
-    if (r < n && arr[r] > arr[largest])
-        largest = r;
+    if (rightChild < n && arr[rightChild] > arr[largest])
+        largest = rightChild;
 
     // If largest is not root
     if (largest != i) {
@@ -34,17 +34,11 @@ void shiftUp(int arr[], int n, int i) {
     // Find parent
     int parent = (i - 1) / 2;
 
-    if (arr[parent] > 0) {
-        // For Max-Heap
-        // If current node is greater than its parent
-        // Swap both of them and call shiftUp again
-        // for the parent
-        if (arr[i] > arr[parent]) {
-            swap(arr[i], arr[parent]);
+    if (arr[i] > arr[parent]) {
+        swap(arr[i], arr[parent]);
 
-            // Recursively shiftUp the parent node
-            shiftUp(arr, n, parent);
-        }
+        // Recursively shiftUp the parent node
+        shiftUp(arr, n, parent);
     }
 }
 
