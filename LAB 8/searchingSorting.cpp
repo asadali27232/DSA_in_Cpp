@@ -1,4 +1,5 @@
 #include<iostream>
+#include <algorithm>
 
 using namespace std;
 const int size = 20;
@@ -170,14 +171,48 @@ void quickSort(int arr[], int low, int high) {
 
 }
 
-void mergeSort(const int arr[]) {
+void merge(int arr[], int low, int mid, int high) {
+    int i, j, k;
+    i = low;
+    j = mid + 1;
+    k = low;
     int newArray[size];
-    cpyArr(arr, newArray);
 
-    // Implement sorting function
+    while (i <= mid && j <= high) {
+        if (arr[i] < arr[j]) {
+            newArray[k] = arr[i];
+            i++;
+            k++;
+        } else {
+            newArray[k] = arr[j];
+            j++;
+            k++;
+        }
+    }
+    while (i <= mid) {
+        newArray[k] = arr[i];
+        i++;
+        k++;
+    }
+    while (j <= high) {
+        newArray[k] = arr[j];
+        j++;
+        k++;
+    }
+    for (i = low; i <= high; i++) {
+        arr[i] = newArray[i];
+    }
+}
 
-    cout << "Sorted by Merge Sort: ";
-    printArr(newArray);
+void mergeSort(int arr[], int low, int high) {
+    if (high <= low) {
+        return;
+    }
+    int mid = (low + high) / 2;
+
+    mergeSort(arr, low, mid);
+    mergeSort(arr, mid + 1, high);
+    merge(arr, low, mid, high);
 }
 
 int main() {
@@ -243,7 +278,13 @@ int main() {
                 cout << "Sorted by Quick Sort: ";
                 printArr(newArray);
             } else if (sortingChoice == 5) {
-                mergeSort(arr);
+                int newArray[size];
+                cpyArr(arr, newArray);
+
+                mergeSort(newArray, 0, size - 1);
+
+                cout << "Sorted by Merge Sort: ";
+                printArr(newArray);
             } else {
                 cout << "ERROR: Unknown Choice" << endl;
             }
@@ -254,3 +295,5 @@ int main() {
 
     return 0;
 }
+
+
