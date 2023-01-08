@@ -4,4 +4,4 @@ project(LAB_9)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(LAB_9
-        main.cpp)
+        BST.cpp)

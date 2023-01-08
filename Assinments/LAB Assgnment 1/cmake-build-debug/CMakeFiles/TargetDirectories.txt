@@ -1,3 +1,3 @@
-C:/Users/asada/OneDrive/CIIT/Data Structures and Algorithms/Assinments/LAB Assgnment 1/cmake-build-debug/CMakeFiles/LAB_Assgnment_1.dir
-C:/Users/asada/OneDrive/CIIT/Data Structures and Algorithms/Assinments/LAB Assgnment 1/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/asada/OneDrive/CIIT/Data Structures and Algorithms/Assinments/LAB Assgnment 1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/asada/OneDrive/CIIT/Data Structures and Algorithms/DSA_in_Cpp/Assinments/LAB Assgnment 1/cmake-build-debug/CMakeFiles/LAB_Assgnment_1.dir
+C:/Users/asada/OneDrive/CIIT/Data Structures and Algorithms/DSA_in_Cpp/Assinments/LAB Assgnment 1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/asada/OneDrive/CIIT/Data Structures and Algorithms/DSA_in_Cpp/Assinments/LAB Assgnment 1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

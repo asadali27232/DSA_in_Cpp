@@ -4,4 +4,4 @@ project(LAB_5)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(LAB_5
-        main.cpp)
+        linkedList.cpp)

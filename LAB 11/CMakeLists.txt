@@ -4,4 +4,4 @@ project(LAB_10)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(LAB_10
-        searching_sorting.cpp)
+        graphs.cpp)

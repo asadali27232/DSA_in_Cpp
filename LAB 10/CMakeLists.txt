@@ -7,4 +7,4 @@ include_directories(.)
 
 add_executable(LAB_10
         Stack.cpp
-        Stack.h heap.cpp heap.cpp)
+        Stack.h heapTree.cpp heapTree.cpp)
