@@ -138,14 +138,36 @@ void insertionSort(const int arr[]) {
     printArr(newArray);
 }
 
-void quickSort(const int arr[]) {
-    int newArray[size];
-    cpyArr(arr, newArray);
+void quickSort(int arr[], int low, int high) {
+    if (high <= low) {
+        return;
+    }
+    int pivot = low;
+    int i = low + 1;
+    int j = high;
+    int temp;
 
-    // Implement sorting function
+    do {
+        while (arr[i] <= arr[pivot]) // Find the index of element greater than pivot
+            i++; // Otherwise move forward
+        while (arr[j] > arr[pivot]) // Find the index of element smaller or equal to pivot
+            j--; // Otherwise move backwards
 
-    cout << "Sorted by Quick Sort: ";
-    printArr(newArray);
+        if (i < j) { // When we found greater than pivot and smaller or equal to pivot at i and j respectively
+            temp = arr[i]; // Then swap i and j
+            arr[i] = arr[j];
+            arr[j] = temp;
+        }
+    } while (i <= j);
+
+    temp = arr[pivot]; // j becomes less than i, swap pivot and j
+    arr[pivot] = arr[j];
+    arr[j] = temp;
+    pivot = j;
+
+    quickSort(arr, low, pivot - 1);
+    quickSort(arr, pivot + 1, high);
+
 }
 
 void mergeSort(const int arr[]) {
@@ -213,7 +235,13 @@ int main() {
             } else if (sortingChoice == 3) {
                 insertionSort(arr);
             } else if (sortingChoice == 4) {
-                quickSort(arr);
+                int newArray[size];
+                cpyArr(arr, newArray);
+
+                quickSort(newArray, 0, size - 1);
+
+                cout << "Sorted by Quick Sort: ";
+                printArr(newArray);
             } else if (sortingChoice == 5) {
                 mergeSort(arr);
             } else {
