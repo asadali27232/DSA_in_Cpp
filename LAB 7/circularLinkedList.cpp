@@ -45,6 +45,7 @@ void insertAt(int atValue, int infoValue) {
             if (p->info == atValue) {
                 cout << "Inserted Value " << infoValue << " at " << p->info << endl;
                 p->info = infoValue;
+                return;
             }
             p = p->next;
         } while (p->next != list);
@@ -63,6 +64,7 @@ void insertEnd(int infoValue) {
         p = new node;
         p->info = infoValue;
         p->next = list;
+
         node *q;
         q = list;
 
@@ -185,18 +187,45 @@ void search(int value) {
 }
 
 void sort() {
+    struct node *p;
+    struct node *q;
+    p = list;
+    q = list;
+    int temp;
 
+    if (p->next == p) return;
+    do {
+        bool isSorted = true;
+        cout << "Out" << endl;
+        do {
+            isSorted = true;
+            cout << "In" << endl;
+            if (q->info > q->next->info) {
+                temp = q->info;
+                q->info = q->next->info;
+                q->next->info = temp;
+                isSorted = false;
+            }
+            q = q->next;
+        } while (q->next != list);
+        if (isSorted)
+            return;
+        p = p->next;
+    } while (p->next != list);
 }
 
 int main() {
 
     insertStart(12);
     insertStart(44);
+    insertStart(44);
     insertStart(23);
 
     insertEnd(333);
     insertEnd(444);
     insertEnd(444);
+    insertEnd(0);
+    insertEnd(1);
 
     displayList();
 
@@ -209,6 +238,9 @@ int main() {
     displayList();
     count();
     search(12);
+
+    sort();
+    displayList();
 
     return 0;
 }

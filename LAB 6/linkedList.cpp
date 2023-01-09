@@ -7,7 +7,7 @@ struct node {
     node *next;
 };
 
-node *list = NULL;
+node *list = nullptr;
 
 void insertStart(int infoValue) {
     node *p;
@@ -190,10 +190,51 @@ void search(int value) {
 }
 
 void sort() {
+    struct node *p;
+    struct node *q;
+    p = list;
+    q = list;
+    int temp;
 
+    while (p->next != nullptr) {
+        bool isSorted = true;
+        while (q->next != nullptr) {
+            if (q->info > q->next->info) {
+                temp = q->info;
+                q->info = q->next->info;
+                q->next->info = temp;
+                isSorted = false;
+            }
+            q = q->next;
+        }
+        if (isSorted)
+            return;
+        p = p->next;
+    }
 }
 
 int main() {
+    insertStart(12);
+    insertStart(44);
+    insertStart(44);
+    insertStart(23);
 
+    insertEnd(333);
+    insertEnd(444);
+    insertEnd(444);
+
+    displayList();
+
+    deleteStart();
+    deleteEnd();
+
+    insertAt(444, 555);
+
+
+    displayList();
+    count();
+    search(12);
+    sort();
+    displayList();
     return 0;
 }

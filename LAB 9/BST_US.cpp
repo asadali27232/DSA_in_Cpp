@@ -85,6 +85,43 @@ void insert(node *root, int key) {
     }
 }
 
+// Function to find the minimum value in a BST
+node *findMin(node *root) {
+    while (root->left != nullptr)
+        root = root->left;
+    return root;
+}
+
+// Function to delete a node from a BST
+node *deleteNode(node *root, int data) {
+    if (root == nullptr) return root;
+
+    if (data < root->data)
+        root->left = deleteNode(root->left, data);
+    else if (data > root->data)
+        root->right = deleteNode(root->right, data);
+    else // data == root->data
+    {
+        // Node with no children or only one child
+        if (root->left == nullptr) {
+            node *temp = root->right;
+            delete root;
+            return temp;
+        } else if (root->right == nullptr) {
+            node *temp = root->left;
+            delete root;
+            return temp;
+        }
+            // Node with two children
+        else {
+            node *temp = findMin(root->right);
+            root->data = temp->data;
+            root->right = deleteNode(root->right, temp->data);
+        }
+    }
+    return root;
+}
+
 int main() {
     node *root = createNode(5);
     insert(root, 2);
@@ -94,7 +131,7 @@ int main() {
     insert(root, 27);
 
     // Checking if BST or NOT
-    if(isBST(root)) {
+    if (isBST(root)) {
         cout << "Is a BST with Inorder Traversal given: ";
         inOrder(root);
         cout << endl;
@@ -107,7 +144,7 @@ int main() {
     if (searchedNode == nullptr) {
         cout << "Element not found." << endl;
     } else {
-        cout << "Found: " <<  searchedNode->data << endl;
+        cout << "Found: " << searchedNode->data << endl;
     }
     return 0;
 }
