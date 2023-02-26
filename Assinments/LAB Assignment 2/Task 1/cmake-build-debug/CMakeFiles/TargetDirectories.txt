@@ -1,3 +1,0 @@
-C:/Users/asada/OneDrive/CIIT/Data Structures and Algorithms/Assinments/LAB Assignment 2/Task 1/cmake-build-debug/CMakeFiles/LAB_Assignment_2.dir
-C:/Users/asada/OneDrive/CIIT/Data Structures and Algorithms/Assinments/LAB Assignment 2/Task 1/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/asada/OneDrive/CIIT/Data Structures and Algorithms/Assinments/LAB Assignment 2/Task 1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

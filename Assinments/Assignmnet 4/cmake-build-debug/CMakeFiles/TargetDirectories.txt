@@ -1,3 +1,0 @@
-C:/Users/asada/OneDrive/CIIT/Data Structures and Algorithms/DSA_in_Cpp/Assinments/Assignmnet 4/cmake-build-debug/CMakeFiles/Assignmnet_4.dir
-C:/Users/asada/OneDrive/CIIT/Data Structures and Algorithms/DSA_in_Cpp/Assinments/Assignmnet 4/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/asada/OneDrive/CIIT/Data Structures and Algorithms/DSA_in_Cpp/Assinments/Assignmnet 4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
