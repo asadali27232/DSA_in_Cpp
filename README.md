@@ -6,7 +6,7 @@ This repository contains the code for the weekly lab assignments of the Data Str
 
 Here's a list of the lab works included in this repository:
 
-- [Lab 1: Arrays](./LAB 1/)
+- [Lab 1: Arrays](./LAB%1/)
 - [Lab 2: Coming Soon...](./LAB%2/)
 - [Lab 3: Coming Soon...](./LAB%3/)
 - [Lab 4: Coming Soon...](./LAB%4/)
