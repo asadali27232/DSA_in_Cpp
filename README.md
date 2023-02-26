@@ -34,17 +34,17 @@ The code in this repository is implemented in C++ and uses various data structur
 ## How to Use
 
 To use the code in this repository, simply clone the repository onto your local machine using the following command:
-``sh
+```sh
 git clone https://github.com/asadali27232/DSA_in_Cpp.git
-``
+```
 Navigate to the desired lab folder and compile the C++ source code using the following command:
-``sh
+```sh
 g++ -o <output_file_name> <source_file_name>
-``
+```
 Run the compiled executable file using the following command:
-``sh
+```sh
 ./<output_file_name>
-``
+```
 
 ## Contributions
 
