@@ -14,6 +14,9 @@ Here's a list of the lab works included in this repository:
 - [Lab 6: Coming Soon...](./LAB%206/)
 - [Lab 7: Coming Soon...](./LAB%207/)
 - [Lab 8: Coming Soon...](./LAB%208/)
+- [Lab 9: Coming Soon...](./LAB%209/)
+- [Lab 10: Coming Soon...](./LAB%2010/)
+- [Lab 11: Coming Soon...](./LAB%2011/)
 
 Every lab work has unique requirements and goals that are intended to enhance the understanding and expertise acquired in the preceding labs.
 
