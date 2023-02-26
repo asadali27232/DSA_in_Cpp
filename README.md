@@ -6,17 +6,17 @@ This repository contains the code for the weekly lab assignments of the Data Str
 
 Here's a list of the lab works included in this repository:
 
-- [Lab 1: Arrays](./LAB%201/)
-- [Lab 2: Coming Soon...](./LAB%202/)
-- [Lab 3: Coming Soon...](./LAB%203/)
-- [Lab 4: Coming Soon...](./LAB%204/)
-- [Lab 5: Coming Soon...](./LAB%205/)
-- [Lab 6: Coming Soon...](./LAB%206/)
-- [Lab 7: Coming Soon...](./LAB%207/)
-- [Lab 8: Coming Soon...](./LAB%208/)
-- [Lab 9: Coming Soon...](./LAB%209/)
-- [Lab 10: Coming Soon...](./LAB%2010/)
-- [Lab 11: Coming Soon...](./LAB%2011/)
+- [Lab 1: Practice Programming Fundamentals from my repo: ](./LAB%201/) [PF_in_cpp](https://github.com/asadali27232/PF_in_cpp)
+- [Lab 2: Arrays](./LAB%202/)
+- [Lab 3: Stack](./LAB%203/)
+- [Lab 4: Queue](./LAB%204/)
+- [Lab 5: Linked List](./LAB%205/)
+- [Lab 6: Linked List](./LAB%206/)
+- [Lab 7: Circular Linked List](./LAB%207/)
+- [Lab 8: Searching & Sorting](./LAB%208/)
+- [Lab 9: Binary Search Tree](./LAB%209/)
+- [Lab 10: Heap Tree](./LAB%2010/)
+- [Lab 11: Graphs](./LAB%2011/)
 
 Every lab work has unique requirements and goals that are intended to enhance the understanding and expertise acquired in the preceding labs.
 
