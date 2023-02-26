@@ -6,14 +6,14 @@ This repository contains the code for the weekly lab assignments of the Data Str
 
 Here's a list of the lab works included in this repository:
 
-- [Lab 1: Arrays](./LAB%1/)
-- [Lab 2: Coming Soon...](./LAB%2/)
-- [Lab 3: Coming Soon...](./LAB%3/)
-- [Lab 4: Coming Soon...](./LAB%4/)
-- [Lab 5: Coming Soon...](./LAB%5/)
-- [Lab 6: Coming Soon...](./LAB%6/)
-- [Lab 7: Coming Soon...](./LAB%7/)
-- [Lab 8: Coming Soon...](./LAB%8/)
+- [Lab 1: Arrays](./LAB%201/)
+- [Lab 2: Coming Soon...](./LAB%202/)
+- [Lab 3: Coming Soon...](./LAB%203/)
+- [Lab 4: Coming Soon...](./LAB%204/)
+- [Lab 5: Coming Soon...](./LAB%205/)
+- [Lab 6: Coming Soon...](./LAB%206/)
+- [Lab 7: Coming Soon...](./LAB%207/)
+- [Lab 8: Coming Soon...](./LAB%208/)
 
 Every lab work has unique requirements and goals that are intended to enhance the understanding and expertise acquired in the preceding labs.
 
