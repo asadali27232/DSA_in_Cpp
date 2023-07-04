@@ -6,15 +6,15 @@ This repository contains the code for the weekly lab assignments of the Data Str
 
 Here's a list of the lab works included in this repository:
 
-- [Lab 1: Practice Programming Fundamentals from my repo: ](./LAB%201/) [PF_in_cpp](https://github.com/asadali27232/PF_in_cpp)
-- [Lab 2: Arrays](./LAB%202/)
-- [Lab 3: Stack](./LAB%203/)
-- [Lab 4: Queue](./LAB%204/)
-- [Lab 5: Linked List](./LAB%205/)
-- [Lab 6: Linked List](./LAB%206/)
-- [Lab 7: Circular Linked List](./LAB%207/)
-- [Lab 8: Searching & Sorting](./LAB%208/)
-- [Lab 9: Binary Search Tree](./LAB%209/)
+- [Lab 1: Practice Programming Fundamentals from my repo: ](./LAB%2001/) [PF_in_cpp](https://github.com/asadali27232/PF_in_cpp)
+- [Lab 2: Arrays](./LAB%2002/)
+- [Lab 3: Stack](./LAB%2003/)
+- [Lab 4: Queue](./LAB%2004/)
+- [Lab 5: Linked List](./LAB%2005/)
+- [Lab 6: Linked List](./LAB%2006/)
+- [Lab 7: Circular Linked List](./LAB%2007/)
+- [Lab 8: Searching & Sorting](./LAB%2008/)
+- [Lab 9: Binary Search Tree](./LAB%2009/)
 - [Lab 10: Heap Tree](./LAB%2010/)
 - [Lab 11: Graphs](./LAB%2011/)
 
